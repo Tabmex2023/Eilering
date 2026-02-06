@@ -103,3 +103,125 @@ main {
   from { transform: translateY(40px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
+
+/* HERO */
+.hero-section {
+  min-height: 85vh;
+  background: linear-gradient(120deg, #f4f6f8, #ffffff);
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.hero-inner {
+  max-width: 900px;
+  animation: fadeUp 1.1s ease forwards;
+}
+
+.hero-inner h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.hero-inner h1 span {
+  font-weight: 400;
+  color: #555;
+}
+
+.hero-inner p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #444;
+  max-width: 650px;
+}
+
+.hero-buttons {
+  margin-top: 36px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: #0a7cff;
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.btn-outline {
+  border: 2px solid #0a7cff;
+  color: #0a7cff;
+  padding: 12px 26px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+/* TRUST */
+.trust-section {
+  background: #ffffff;
+  padding: 80px 40px;
+}
+
+.trust-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+/* SERVICES */
+.services-section {
+  padding: 100px 40px;
+  background: #f5f6f7;
+}
+
+.services-section h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+/* REGION */
+.region-section {
+  padding: 90px 40px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.region-section p {
+  max-width: 700px;
+  margin: 20px auto 0;
+  color: #444;
+}
+
+/* CTA */
+.cta-section {
+  padding: 100px 40px;
+  background: #0a7cff;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-section p {
+  margin: 20px auto 40px;
+  max-width: 600px;
+}
